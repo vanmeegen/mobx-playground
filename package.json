@@ -1,0 +1,28 @@
+{
+  "name": "mobx-playground",
+  "version": "1.0.0",
+  "description": "Playground to understand basic mobx concepts featuring react typescript todo implementation and some mobx autorun examples wrapped in a jest test",
+  "keywords": [
+    "mobx",
+    "jest",
+    "typescript",
+    "playground",
+    "todo"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "jest": "25.0.0",
+    "mobx": "5.14.2",
+    "mobx-react": "6.1.4",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-scripts": "3.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
